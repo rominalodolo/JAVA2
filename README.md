@@ -32,3 +32,8 @@ Why And When To Use Interfaces?
 
 [W3Schools](https://www.w3schools.com/java/java_interface.asp)
 
+
+Casting and promotion 
+![png;base646cab73610497bd47](https://user-images.githubusercontent.com/83961643/161496633-e1197b36-1149-4ffa-a464-5aec1ba28459.png)
+[ARGUMENT PROMOTION AND CASTING](http://underpop.online.fr/j/java/help/argument-promotion-and-casting-methods-a-deeper-look.html.gz)
+
