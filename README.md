@@ -11,7 +11,7 @@ The abstract keyword is a non-access modifier, used for classes and methods: Abs
 [W3Schools](https://www.w3schools.com/java/java_abstract.asp)
 
 
-Interfaces
+## Interfaces
 - An interface is a completely "abstract class" that is used to group related methods with empty bodies. 
 - To access the interface methods, the interface must be "implemented" (kinda like inherited) by another class with the implements keyword (instead of extends). The body of the interface method is provided by the "implement" class.
 
@@ -33,7 +33,7 @@ Why And When To Use Interfaces?
 [W3Schools](https://www.w3schools.com/java/java_interface.asp)
 
 
-Casting and promotion 
+## Casting and promotion 
 ![png;base646cab73610497bd47](https://user-images.githubusercontent.com/83961643/161496633-e1197b36-1149-4ffa-a464-5aec1ba28459.png)
 [ARGUMENT PROMOTION AND CASTING](http://underpop.online.fr/j/java/help/argument-promotion-and-casting-methods-a-deeper-look.html.gz)
 
