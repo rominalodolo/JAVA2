@@ -37,3 +37,15 @@ Why And When To Use Interfaces?
 ![png;base646cab73610497bd47](https://user-images.githubusercontent.com/83961643/161496633-e1197b36-1149-4ffa-a464-5aec1ba28459.png)
 [ARGUMENT PROMOTION AND CASTING](http://underpop.online.fr/j/java/help/argument-promotion-and-casting-methods-a-deeper-look.html.gz)
 
+Upcasting is casting a subtype to a super type in an upward direction to the inheritance tree. It is an automatic procedure for which there are no efforts poured in to do so where a sub-class object is referred by a superclass reference variable. One can relate it with dynamic polymorphism.
+Implicit casting means class typecasting done by the compiler without cast syntax.
+Explicit casting means class typecasting done by the programmer with cast syntax.
+
+![Downcasting jpg](https://user-images.githubusercontent.com/83961643/161498232-43f20a09-7273-4da2-bec5-93bc1e595fe4.png)
+Downcasting refers to the procedure when subclass type refers to the object of the parent class is known as downcasting. If it is performed directly compiler gives an error as ClassCastException is thrown at runtime. It is only achievable with the use of instanceof operator The object which is already upcast, that object only can be performed downcast.
+
+Another example would be a `sports` folder and in that folder you have different categories like `cricket`, `golf`, `boxing`. In those folders there's objects like golf ball and cricket bat but those objects can't access eachother because they are in different folders. You would need to move to the parent class(main folder called sports) to be able to access all the objects. 
+
+Class cast exeption: 
+instanceof 
+
