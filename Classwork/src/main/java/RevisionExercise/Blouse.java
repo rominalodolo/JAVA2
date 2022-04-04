@@ -25,6 +25,14 @@ public class Blouse extends Clothing {
     public void setOUTofSTOCK(boolean OUTofSTOCK) {
         this.OUTofSTOCK = OUTofSTOCK;
     }
+
+    @Override
+    public void displayClothing(){
+        super.displayClothing();
+        System.out.println("Details: " + getDetails() + "\n" +
+                "Out of Stock: " + isOUTofSTOCK()
+        );
+    }
 }
 
 

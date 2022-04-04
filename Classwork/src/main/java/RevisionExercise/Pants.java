@@ -27,5 +27,12 @@ public class Pants extends Clothing{
     }
 
 
+    @Override
+    public void displayClothing(){
+            super.displayClothing();
+        System.out.println("Type: " + getType() + "\n" +
+                "Out of Stock: " + isOUTofSTOCK()
+                );
+    }
 
 }
