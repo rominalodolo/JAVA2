@@ -45,6 +45,7 @@ Explicit casting means class typecasting done by the programmer with cast syntax
 Downcasting refers to the procedure when subclass type refers to the object of the parent class is known as downcasting. If it is performed directly compiler gives an error as ClassCastException is thrown at runtime. It is only achievable with the use of instanceof operator The object which is already upcast, that object only can be performed downcast.
 
 Another example would be a `sports` folder and in that folder you have different categories like `cricket`, `golf`, `boxing`. In those folders there's objects like golf ball and cricket bat but those objects can't access eachother because they are in different folders. You would need to move to the parent class(main folder called sports) to be able to access all the objects. 
+[Geeks for Geeks](https://www.geeksforgeeks.org/class-type-casting-in-java/)
 
 Class cast exeption: 
 instanceof 
