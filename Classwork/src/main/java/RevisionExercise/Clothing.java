@@ -76,7 +76,15 @@ public class Clothing {
         this.upc = upc;
     }
 
-    public String 
+    public String print() {
+        return "Size: " + getSize() + "\n" +
+                "Color: " + getColor() + "\n" +
+                "Description: " + getDescription() + "\n" +
+                "Composition: " + getComposition() + "\n" +
+                "Price: " + getPrice() + "\n" +
+                "SKU: " + getPrice() + "\n" +
+                "UPC: " + getUpc() + "\n";
+    }
 
 
 }
