@@ -104,3 +104,8 @@ Variable arguments: An argument of a method can accept arbitrary number of value
 
 ## Static Method
 a static method is a method that belongs to a class rather than an instance of a class. The method is accessible to every instance of a class, but methods defined in an instance are only able to be accessed by that object of a class. [Read More](https://www.techopedia.com/definition/24034/static-method-java)
+![slide_2](https://user-images.githubusercontent.com/83961643/161718487-d099afa0-934c-4d75-8a37-76d5cdd72faf.jpg) [More Notes](https://slideplayer.com/slide/9793159/)
+![slide_5](https://user-images.githubusercontent.com/83961643/161718766-51cf54cb-0fa0-410a-bb14-cde0ba97f2d2.jpg)
+![slide_3](https://user-images.githubusercontent.com/83961643/161718774-b5ddca0e-a9f0-4e45-805a-e61921275614.jpg)
+
+
