@@ -63,3 +63,11 @@ Example: Game App, each game that a user can play from the aplication can be con
 
 ![java-opengenus](https://user-images.githubusercontent.com/83961643/161699521-53aa6ebf-bd99-4745-bb0f-7999e9785fc1.jpg)
 [Read More](https://iq.opengenus.org/public-private-protected-in-java/)
+
+## Method Overriding 
+If subclass (child class) has the same method as declared in the parent class, it is known as method overriding in Java.
+1. The method must have the same name as in the parent class
+2. The method must have the same parameter as in the parent class.
+3. There must be an IS-A relationship (inheritance).
+[Read More](https://pragjyotishcollege.ac.in/wp-content/uploads/2020/04/Method-Overriding-in-Java.pdf)
+
