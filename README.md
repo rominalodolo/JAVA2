@@ -111,5 +111,5 @@ a static method is a method that belongs to a class rather than an instance of a
 ## A static initialization block in Java
 Instance variables are initialized using initialization blocks. However, the static initialization blocks can only initialize the static instance variables. These blocks are only executed once when the class is loaded. There can be multiple static initialization blocks in a class that is called in the order they appear in the program. [More Examples](https://www.tutorialspoint.com/a-static-initialization-block-in-java)
 
-## [Static Import] (https://www.geeksforgeeks.org/static-import-java/)
+## [Static Import](https://www.geeksforgeeks.org/static-import-java/)
 You can access the static members of a class directly without class name or any object. For Example: we always use sqrt() method of Math class by using Math class i.e. Math.sqrt(), but by using static import we can access sqrt() method directly. 
