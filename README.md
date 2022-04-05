@@ -50,3 +50,17 @@ Another example would be a `sports` folder and in that folder you have different
 Class cast exeption: 
 instanceof 
 
+## Difference between public, private, protected and default in Java
+Differences
+- Accessibility: anything public is accessible to anywhere , anything private is only accessible in the class they are declared , anything protected is accessible outside the package but only to child classes and default is accessible only inside the package.
+-Encapculation: Public modifier provides lowest level of Encapculation and Private modifier provides higher level of Encapsulation in Java.
+Another difference is that you can use public modifier with top level class but you cannot make a top level class private in java.You can make inner class private.
+- Default: Another difference is that default is package level accessibility i.e. if you don't provide any access modifier to a class, method or variable then Java by default make them accessible inside the package.
+Another difference between protected and default modifier is that protected modifier provides more accessibility than default modifier. You can access a protected member outside the package, but only inside sub classes.
+
+A class defines the characteristics and behaviour of an object.
+
+Example: Game App, each game that a user can play from the aplication can be considered as an object of the Games class.Each game has common characteristics, such as the number of players,game category and score. These characteristics are known as member variables and behavior is specified by methods . A class defines the member variables and methods of objects that share common characteristics. Further,all the games have common methods, such as calculating score, starting the game and displaying game instructions. 
+
+![java-opengenus](https://user-images.githubusercontent.com/83961643/161699521-53aa6ebf-bd99-4745-bb0f-7999e9785fc1.jpg)
+[Read More](https://iq.opengenus.org/public-private-protected-in-java/)
