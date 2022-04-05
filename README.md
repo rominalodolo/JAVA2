@@ -113,3 +113,10 @@ Instance variables are initialized using initialization blocks. However, the sta
 
 ## [Static Import](https://www.geeksforgeeks.org/static-import-java/)
 You can access the static members of a class directly without class name or any object. For Example: we always use sqrt() method of Math class by using Math class i.e. Math.sqrt(), but by using static import we can access sqrt() method directly. 
+
+## (Immutable Class]9https://www.geeksforgeeks.org/create-immutable-class-java/)
+Immutable class in java means that once an object is created, we cannot change its content. In Java, all the wrapper classes (like Integer, Boolean, Byte, Short) and String class is immutable. We can create our own immutable class as well.
+
+## [Singleton Class](https://www.geeksforgeeks.org/singleton-class-java/)
+
+In object-oriented programming, a singleton class is a class that can have only one object (an instance of the class) at a time. After the first time, if we try to instantiate the Singleton class, the new variable also points to the first instance created. So whatever modifications we do to any variable inside the class through any instance, affects the variable of the single instance created and is visible if we access that variable through any variable of that class type defined. 
