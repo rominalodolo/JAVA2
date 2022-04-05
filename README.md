@@ -176,4 +176,13 @@ When an abstract class is subclassed, the subclass usually provides implementati
 ## [Final methods and class](https://docs.oracle.com/javase/tutorial/java/IandI/final.html)
 You can declare some or all of a class's methods final. You use the final keyword in a method declaration to indicate that the method cannot be overridden by subclasses. The Object class does this—a number of its methods are final.
 
-If the method if final you can't chnage the implementation. 
+If the method is final you can't chnage the implementation. 
+
+![ifinal](https://user-images.githubusercontent.com/83961643/161747639-b24e21fd-86fe-4df0-9e2b-82301ef65d06.jpeg)
+
+Benefits of final Variables: 
+- Bug prevention
+- Thread saftey 
+
+Drawback: Not available for garbage collection 
+
