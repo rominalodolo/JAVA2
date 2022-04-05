@@ -186,3 +186,5 @@ Benefits of final Variables:
 
 Drawback: Not available for garbage collection 
 
+## Static and Final combined:
+A field that is both ststic and final is considered a constant. By convention, constant fields use identifiers consiting of only uppercase letters and underscores. 
