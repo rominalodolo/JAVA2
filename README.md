@@ -195,3 +195,10 @@ Drawback: Not available for garbage collection
 
 ## Static and Final combined:
 A field that is both ststic and final is considered a constant. By convention, constant fields use identifiers consiting of only uppercase letters and underscores. 
+
+
+## Enumerations (enums)
+- Created by using a variation of a Java class
+- Provide a complie-time range check 
+![enum](https://user-images.githubusercontent.com/83961643/161752469-463c2524-223f-4e35-bd5a-84c6011cc4b4.jpeg)
+
