@@ -95,4 +95,8 @@ There are two types of polymorphism in Java: compile-time polymorphism and runti
 If you overload a static method in Java, it is the example of compile time polymorphism. 
 
 
+## Varargs
 
+Variable arguments: An argument of a method can accept arbitrary number of values. This argument that can accept variable number of values is called varargs. [Read More](https://www.programiz.com/java-programming/varargs)
+
+[convert varargs to List or Array](https://tedblob.com/java-convert-varargs-to-list-or-array/)
