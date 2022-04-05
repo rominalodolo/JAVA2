@@ -71,3 +71,28 @@ If subclass (child class) has the same method as declared in the parent class, i
 3. There must be an IS-A relationship (inheritance).
 [Read More](https://pragjyotishcollege.ac.in/wp-content/uploads/2020/04/Method-Overriding-in-Java.pdf)
 
+## Virtual Method Invocation:
+A virtual function or virtual method in an OOP language is a function or method used to override the behavior of the function in an inherited class with the same signature to achieve the polymorphism.[Read More](https://www.javatpoint.com/virtual-function-in-java)
+
+## Java OOPs Concepts [(Object Orientated Programming) ](https://www.javatpoint.com/java-oops-concepts)
+Object-Oriented Programming is a paradigm that provides many concepts, such as inheritance, data binding, polymorphism, etc.
+Object means a real-world entity such as a pen, chair, table, computer, watch, etc. Object-Oriented Programming is a methodology or paradigm to design a program using classes and objects. It simplifies software development and maintenance by providing some concepts:
+
+- Object
+- Class
+- Inheritance
+- Polymorphism
+- Abstraction
+- Encapsulation
+
+![OOP_4p](https://user-images.githubusercontent.com/83961643/161706461-063ddbf6-7b4c-4ed2-910f-bf83c1ce4a48.png)
+
+## [Polymorphism](https://www.javatpoint.com/runtime-polymorphism-in-java)
+Polymorphism in Java is a concept by which we can perform a single action in different ways. Polymorphism is derived from 2 Greek words: poly and morphs. The word "poly" means many and "morphs" means forms. So polymorphism means many forms.
+
+There are two types of polymorphism in Java: compile-time polymorphism and runtime polymorphism. We can perform polymorphism in java by method overloading and method overriding.
+
+If you overload a static method in Java, it is the example of compile time polymorphism. 
+
+
+
