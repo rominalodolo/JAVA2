@@ -4,6 +4,8 @@
 
 ## [Types of Classes in Java](https://www.javatpoint.com/types-of-classes-in-java)
 ![types-of-classes-in-java](https://user-images.githubusercontent.com/83961643/161749874-1a37502b-39a4-4b6e-b1f8-43052d400610.png)
+Anonoymous Class 
+[More on classes](https://cs.lmu.edu/~ray/notes/javaclasses/)
 
 ## [Types of Inheritance](https://simplesnippets.tech/inheritance-in-java-types-of-inheritance/)
 ![java-types-of-inheritance-800x445](https://user-images.githubusercontent.com/83961643/161750352-e21a3282-af48-4ae8-bbfe-d7d24a9129af.jpg)
