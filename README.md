@@ -134,3 +134,9 @@ Immutable class in java means that once an object is created, we cannot change i
 In object-oriented programming, a singleton class is a class that can have only one object (an instance of the class) at a time. After the first time, if we try to instantiate the Singleton class, the new variable also points to the first instance created. So whatever modifications we do to any variable inside the class through any instance, affects the variable of the single instance created and is visible if we access that variable through any variable of that class type defined. 
 
 Purpose: To restrict the limit of the number of object creation to only one. This often ensures that there is access control to resources, for example, socket or database connection.
+
+
+## Modeling Business Problems with Classes
+
+![img](https://user-images.githubusercontent.com/83961643/161742340-72c9af1b-51e3-4361-970f-36ce9707bd87.jpeg)
+
