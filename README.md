@@ -140,3 +140,5 @@ Purpose: To restrict the limit of the number of object creation to only one. Thi
 
 ![img](https://user-images.githubusercontent.com/83961643/161742340-72c9af1b-51e3-4361-970f-36ce9707bd87.jpeg)
 
+>> Always use the most generic reference type possible. <<
+
