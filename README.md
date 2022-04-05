@@ -162,3 +162,12 @@ If a class includes abstract methods, then the class itself must be declared abs
 When an abstract class is subclassed, the subclass usually provides implementations for all of the abstract methods in its parent class. However, if it does not, then the subclass must also be declared abstract.
 [Java Docs: Abstract Class](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html)
 
+## Absract Method
+- Can't have a method body
+- Must be declared in an abstract class
+- Is overridden in subclasses
+- An abstract method can take arguments and return values. 
+
+## Validating Abstract Classes 
+- An abstract class may have any number of abstract and nonabstract methods
+- Do the following when abstracting: Declare the child class as abstract, Override all abstract methods inherited from the parent class. There will be a complie-time error if you do not execute override. 
