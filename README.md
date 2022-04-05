@@ -173,7 +173,7 @@ When an abstract class is subclassed, the subclass usually provides implementati
 - Do the following when abstracting: Declare the child class as abstract, Override all abstract methods inherited from the parent class. There will be a complie-time error if you do not execute override. 
 
 
-## (Final methods and class](https://docs.oracle.com/javase/tutorial/java/IandI/final.html)
+## [Final methods and class](https://docs.oracle.com/javase/tutorial/java/IandI/final.html)
 You can declare some or all of a class's methods final. You use the final keyword in a method declaration to indicate that the method cannot be overridden by subclasses. The Object class does this—a number of its methods are final.
 
 If the method if final you can't chnage the implementation. 
