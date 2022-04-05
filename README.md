@@ -103,20 +103,34 @@ Variable arguments: An argument of a method can accept arbitrary number of value
 
 
 ## Static Method
-a static method is a method that belongs to a class rather than an instance of a class. The method is accessible to every instance of a class, but methods defined in an instance are only able to be accessed by that object of a class. [Read More](https://www.techopedia.com/definition/24034/static-method-java)
-![slide_2](https://user-images.githubusercontent.com/83961643/161718487-d099afa0-934c-4d75-8a37-76d5cdd72faf.jpg) [More Notes](https://slideplayer.com/slide/9793159/)
+
+A method that belongs to a class rather than an instance of a class. The method is accessible to every instance of a class, but methods defined in an instance are only able to be accessed by that object of a class. 
+[Read More](https://www.techopedia.com/definition/24034/static-method-java)
+![slide_2](https://user-images.githubusercontent.com/83961643/161718487-d099afa0-934c-4d75-8a37-76d5cdd72faf.jpg) 
+
+[More Notes](https://slideplayer.com/slide/9793159/)
+
 ![slide_5](https://user-images.githubusercontent.com/83961643/161718766-51cf54cb-0fa0-410a-bb14-cde0ba97f2d2.jpg)
 ![slide_3](https://user-images.githubusercontent.com/83961643/161718774-b5ddca0e-a9f0-4e45-805a-e61921275614.jpg)
 
+
 ## A static initialization block in Java
+
 Instance variables are initialized using initialization blocks. However, the static initialization blocks can only initialize the static instance variables. These blocks are only executed once when the class is loaded. There can be multiple static initialization blocks in a class that is called in the order they appear in the program. [More Examples](https://www.tutorialspoint.com/a-static-initialization-block-in-java)
 
+
 ## [Static Import](https://www.geeksforgeeks.org/static-import-java/)
+
 You can access the static members of a class directly without class name or any object. For Example: we always use sqrt() method of Math class by using Math class i.e. Math.sqrt(), but by using static import we can access sqrt() method directly. 
 
+
 ## (Immutable Class]9https://www.geeksforgeeks.org/create-immutable-class-java/)
+
 Immutable class in java means that once an object is created, we cannot change its content. In Java, all the wrapper classes (like Integer, Boolean, Byte, Short) and String class is immutable. We can create our own immutable class as well.
+
 
 ## [Singleton Class](https://www.geeksforgeeks.org/singleton-class-java/)
 
 In object-oriented programming, a singleton class is a class that can have only one object (an instance of the class) at a time. After the first time, if we try to instantiate the Singleton class, the new variable also points to the first instance created. So whatever modifications we do to any variable inside the class through any instance, affects the variable of the single instance created and is visible if we access that variable through any variable of that class type defined. 
+
+Purpose: To restrict the limit of the number of object creation to only one. This often ensures that there is access control to resources, for example, socket or database connection.
