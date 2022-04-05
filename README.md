@@ -100,3 +100,7 @@ If you overload a static method in Java, it is the example of compile time polym
 Variable arguments: An argument of a method can accept arbitrary number of values. This argument that can accept variable number of values is called varargs. [Read More](https://www.programiz.com/java-programming/varargs)
 
 [convert varargs to List or Array](https://tedblob.com/java-convert-varargs-to-list-or-array/)
+
+
+## Static Method
+a static method is a method that belongs to a class rather than an instance of a class. The method is accessible to every instance of a class, but methods defined in an instance are only able to be accessed by that object of a class. [Read More](https://www.techopedia.com/definition/24034/static-method-java)
