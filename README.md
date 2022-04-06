@@ -216,8 +216,10 @@ An interface outlines a contract for a class. The contract outlined by an interf
 
 ### Rules for an interface
 >> Access Modifiers: 
-~
+All mothods in an interface are public, even if you forget to declare them as public. You may not declare methods as private or protected in an interface.
 >> Abstract Modifier:
+Since all methods are implicitly `abstract` it is redundant (but allowed) to declare a method as abstract. Because all interface methods are abstract, you may not provide any method implementation, not even an empty set of braces. 
 >> Implement Multiple Interfaces: 
+A class can implement more than one interface in a comma-separated list at the end of the class declaration. 
 
 
