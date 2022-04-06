@@ -226,4 +226,5 @@ Since all methods are implicitly `abstract` it is redundant (but allowed) to dec
 >> Implement Multiple Interfaces: 
 A class can implement more than one interface in a comma-separated list at the end of the class declaration. 
 
-
+## [Default Methods](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html)
+Default methods enable you to add new functionality to the interfaces of your libraries and ensure binary compatibility with code written for older versions of those interfaces.
