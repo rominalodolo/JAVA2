@@ -59,6 +59,8 @@ Another example would be a `sports` folder and in that folder you have different
 Class cast exeption: 
 instanceof 
 
+# Chapter 4: Overriding methods, Polymorphism & Static Classes
+
 ## Difference between public, private, protected and default in Java
 - Accessibility: anything public is accessible to anywhere , anything private is only accessible in the class they are declared , anything protected is accessible outside the package but only to child classes and default is accessible only inside the package.
 - Encapculation: Public modifier provides lowest level of Encapculation and Private modifier provides higher level of Encapsulation in Java.
@@ -144,7 +146,7 @@ In object-oriented programming, a singleton class is a class that can have only 
 
 Purpose: To restrict the limit of the number of object creation to only one. This often ensures that there is access control to resources, for example, socket or database connection.
 
-
+# Chapter 5: Abstract & Nested Classes
 ## Modeling Business Problems with Classes
 
 ![img](https://user-images.githubusercontent.com/83961643/161742340-72c9af1b-51e3-4361-970f-36ce9707bd87.jpeg)
@@ -204,6 +206,7 @@ A field that is both ststic and final is considered a constant. By convention, c
 - Provide a complie-time range check 
 ![enum](https://user-images.githubusercontent.com/83961643/161752469-463c2524-223f-4e35-bd5a-84c6011cc4b4.jpeg)
 
+# Chapter 6: Interfaces & Lambda Expressions: 
 
 ## [Java Interface](https://www.programiz.com/java-programming/interfaces)
 An interface outlines a contract for a class. The contract outlined by an interface mandates the methods that must be implemented in a class. Classes implementing the contract must fulfill the entire contract or be declared `abstract`. It's like an agreement. 
@@ -272,6 +275,7 @@ An interface can never implement another interface. The reason is that if the in
 ![compare](https://user-images.githubusercontent.com/83961643/161929847-6ba12b08-aba6-4699-8b07-c007ddb83965.jpeg)
 
 
+## [Anonymous Inner Class](https://www.geeksforgeeks.org/anonymous-inner-class-java/)
 
 
 
