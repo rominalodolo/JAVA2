@@ -210,7 +210,7 @@ An interface outlines a contract for a class. The contract outlined by an interf
 - Provides specifications that a class (which implements it) must follow.
 - Interfaces help us to achieve abstraction in Java.
 - Interfaces are also used to achieve multiple inheritance in Java.
-- May contain constant fields.
+- May contain constant fields: Constant fields are permitted in an interface. When you declare a filed in an interface, it's implicity `public`, `static`, and `final`. You can redundantly specify these modifiers. 
 - Can be used as a reference type 
 - An essential component of many design patterns. 
 
@@ -246,3 +246,12 @@ Default methods:
 A static method is a method that is associated with the class in which it is defined rather than with any object. Every instance of the class shares its static methods. This makes it easier for you to organize helper methods in your libraries; you can keep static methods specific to an interface in the same interface rather than in a separate class. 
 Like static methods in classes, you specify that a method definition in an interface is a static method with the static keyword at the beginning of the method signature. All method declarations in an interface, including static methods, are implicitly public, so you can omit the public modifier.
 
+### [Extending Interfaces](https://techvidvan.com/tutorials/java-extends-vs-implements/)
+
+Extends: 
+>> The extends keyword in Java is useful when we want to inherit the properties and methods of a parent class in our child class.
+This extends keyword establishes the inheritance relationship between two classes.
+We use it while creating a derived class from the parent class or creating a subclass form the superclass.
+The rule is that a class can extend a maximum of one class only.
+When a class extends another class, it can override the methods defined in a superclass.
+We also use the extends keyword when we want an interface to extend or inherit another interface.
