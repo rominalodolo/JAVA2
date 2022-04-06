@@ -214,7 +214,7 @@ An interface outlines a contract for a class. The contract outlined by an interf
 - Can be used as a reference type 
 - An essential component of many design patterns. 
 
-### Rules for an interface
+#### Rules for an interface
 >> Access Modifiers: 
 All mothods in an interface are public, even if you forget to declare them as public. You may not declare methods as private or protected in an interface.
 
@@ -226,5 +226,13 @@ Since all methods are implicitly `abstract` it is redundant (but allowed) to dec
 >> Implement Multiple Interfaces: 
 A class can implement more than one interface in a comma-separated list at the end of the class declaration. 
 
-## [Default Methods](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html)
+### [Default Methods](https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html)
 Default methods enable you to add new functionality to the interfaces of your libraries and ensure binary compatibility with code written for older versions of those interfaces.
+
+#### Extending Interfaces That Contain Default Methods
+
+When you extend an interface that contains a default method, you can do the following:
+
+- Not mention the default method at all, which lets your extended interface inherit the default method.
+- Redeclare the default method, which makes it abstract.
+- Redefine the default method, which overrides it.
