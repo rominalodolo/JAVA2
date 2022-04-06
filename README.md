@@ -236,3 +236,13 @@ When you extend an interface that contains a default method, you can do the foll
 - Not mention the default method at all, which lets your extended interface inherit the default method.
 - Redeclare the default method, which makes it abstract.
 - Redefine the default method, which overrides it.
+
+Default methods: 
+- Are declared by using the keyword `default`
+- Are fully implemented methods within an interface
+- Provide useful inheritance machanics 
+
+### Static Methods in Interfaces
+A static method is a method that is associated with the class in which it is defined rather than with any object. Every instance of the class shares its static methods. This makes it easier for you to organize helper methods in your libraries; you can keep static methods specific to an interface in the same interface rather than in a separate class. 
+Like static methods in classes, you specify that a method definition in an interface is a static method with the static keyword at the beginning of the method signature. All method declarations in an interface, including static methods, are implicitly public, so you can omit the public modifier.
+
