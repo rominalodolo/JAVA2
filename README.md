@@ -278,4 +278,23 @@ An interface can never implement another interface. The reason is that if the in
 ## [Anonymous Inner Class](https://www.geeksforgeeks.org/anonymous-inner-class-java/)
 Nested Classes in Java is prerequisite required before adhering forward to grasp about anonymous Inner class. It is an inner class without a name and for which only a single object is created. An anonymous inner class can be useful when making an instance of an object with certain “extras” such as overriding methods of a class or interface, without having to actually subclass a class.
 
+- A single method interface: functional interface
+- Takes 2 strings and returns a boolean
+- You  can logically group code in one place
+- increase encapsulation
+- make your code more redable.
+
+## String Analysis Regular class 
+- Class ananlyses 
+
+## String analysis Anonoymous Inner Class 
+
+## Encapsulate the for Loop
+
+
+# Chapter 7: Generics and Collections 
+
+# Chapter 8: Collections, Streams & Filters 
+
+
 
