@@ -255,3 +255,13 @@ We use it while creating a derived class from the parent class or creating a sub
 The rule is that a class can extend a maximum of one class only.
 When a class extends another class, it can override the methods defined in a superclass.
 We also use the extends keyword when we want an interface to extend or inherit another interface.
+
+
+Implements:
+>> We use the keyword implements while implementing an interface.
+A class can implement an interface using the implements keyword.
+An interface is an abstract type in Java that contains a collection of abstract methods. We cannot instantiate an interface that is, we can’t create objects from an interface.
+When a class implements an interface, it has to define all the methods that are present inside the interface by providing the implementation of each of the methods.
+If the class that implements an interface, doesn’t define or does not contains implementation of all the methods of the interface, then we must declare it as abstract. Otherwise, the compiler will give an error.
+Java doesn’t support multiple inheritances, but we can implement multiple inheritance in our code by using multiple interfaces in Java.
+An interface can never implement another interface. The reason is that if the interface will implement another interface then it has to define all the methods of the interface which it is implementing but the interface can not have any concrete methods, therefore, an interface can’t implement another interface in Java.
