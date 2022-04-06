@@ -214,6 +214,10 @@ An interface outlines a contract for a class. The contract outlined by an interf
 - Can be used as a reference type 
 - An essential component of many design patterns. 
 
-
+### Rules for an interface
+>> Access Modifiers: 
+~
+>> Abstract Modifier:
+>> Implement Multiple Interfaces: 
 
 
