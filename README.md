@@ -206,7 +206,7 @@ A field that is both ststic and final is considered a constant. By convention, c
 
 
 ## [Java Interface](https://www.programiz.com/java-programming/interfaces)
-An interface outlines a contract for a class. The contract outlined by an interface mandates the methods that must be implemented in a class. Classes implementing the contract must fulfill the entire contract or be declared `abstract`.
+An interface outlines a contract for a class. The contract outlined by an interface mandates the methods that must be implemented in a class. Classes implementing the contract must fulfill the entire contract or be declared `abstract`. It's like an agreement. 
 - Provides specifications that a class (which implements it) must follow.
 - Interfaces help us to achieve abstraction in Java.
 - Interfaces are also used to achieve multiple inheritance in Java.
