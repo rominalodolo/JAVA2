@@ -265,3 +265,13 @@ When a class implements an interface, it has to define all the methods that are 
 If the class that implements an interface, doesn’t define or does not contains implementation of all the methods of the interface, then we must declare it as abstract. Otherwise, the compiler will give an error.
 Java doesn’t support multiple inheritances, but we can implement multiple inheritance in our code by using multiple interfaces in Java.
 An interface can never implement another interface. The reason is that if the interface will implement another interface then it has to define all the methods of the interface which it is implementing but the interface can not have any concrete methods, therefore, an interface can’t implement another interface in Java.
+
+- Both of them directly or indirectly use the concept of inheritance in Java.
+- Implementing an interface provides more flexibility than extending a class as we can extend a single class but we can implement multiple inheritances in Java.
+
+![compare](https://user-images.githubusercontent.com/83961643/161929847-6ba12b08-aba6-4699-8b07-c007ddb83965.jpeg)
+
+
+
+
+
