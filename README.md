@@ -204,3 +204,16 @@ A field that is both ststic and final is considered a constant. By convention, c
 - Provide a complie-time range check 
 ![enum](https://user-images.githubusercontent.com/83961643/161752469-463c2524-223f-4e35-bd5a-84c6011cc4b4.jpeg)
 
+
+## [Java Interface](https://www.programiz.com/java-programming/interfaces)
+An interface outlines a contract for a class. The contract outlined by an interface mandates the methods that must be implemented in a class. Classes implementing the contract must fulfill the entire contract or be declared `abstract`.
+- Provides specifications that a class (which implements it) must follow.
+- Interfaces help us to achieve abstraction in Java.
+- Interfaces are also used to achieve multiple inheritance in Java.
+- May contain constant fields.
+- Can be used as a reference type 
+- An essential component of many design patterns. 
+
+
+
+
