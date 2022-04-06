@@ -2,6 +2,15 @@
  Java advanced Classwork and activities.
 
 
+## [Types of Classes in Java](https://www.javatpoint.com/types-of-classes-in-java)
+![types-of-classes-in-java](https://user-images.githubusercontent.com/83961643/161749874-1a37502b-39a4-4b6e-b1f8-43052d400610.png)
+Anonoymous Class 
+[More on classes](https://cs.lmu.edu/~ray/notes/javaclasses/)
+
+## [Types of Inheritance](https://simplesnippets.tech/inheritance-in-java-types-of-inheritance/)
+![java-types-of-inheritance-800x445](https://user-images.githubusercontent.com/83961643/161750352-e21a3282-af48-4ae8-bbfe-d7d24a9129af.jpg)
+
+
 ##  Java Abstraction
 
 The abstract keyword is a non-access modifier, used for classes and methods: Abstract class: is a restricted class that cannot be used to create objects (to access it, it must be inherited from another class). Abstract method: can only be used in an abstract class, and it does not have a body.
@@ -49,4 +58,149 @@ Another example would be a `sports` folder and in that folder you have different
 
 Class cast exeption: 
 instanceof 
+
+## Difference between public, private, protected and default in Java
+- Accessibility: anything public is accessible to anywhere , anything private is only accessible in the class they are declared , anything protected is accessible outside the package but only to child classes and default is accessible only inside the package.
+- Encapculation: Public modifier provides lowest level of Encapculation and Private modifier provides higher level of Encapsulation in Java.
+Another difference is that you can use public modifier with top level class but you cannot make a top level class private in java.You can make inner class private.
+- Default: Another difference is that default is package level accessibility i.e. if you don't provide any access modifier to a class, method or variable then Java by default make them accessible inside the package.
+- Another difference between protected and default modifier is that protected modifier provides more accessibility than default modifier. You can access a protected member outside the package, but only inside sub classes.
+
+A class defines the characteristics and behaviour of an object.
+
+Example: Game App, each game that a user can play from the aplication can be considered as an object of the Games class.Each game has common characteristics, such as the number of players,game category and score. These characteristics are known as member variables and behavior is specified by methods . A class defines the member variables and methods of objects that share common characteristics. Further,all the games have common methods, such as calculating score, starting the game and displaying game instructions. 
+
+![java-opengenus](https://user-images.githubusercontent.com/83961643/161699521-53aa6ebf-bd99-4745-bb0f-7999e9785fc1.jpg)
+[Read More](https://iq.opengenus.org/public-private-protected-in-java/)
+
+## Method Overriding 
+If subclass (child class) has the same method as declared in the parent class, it is known as method overriding in Java.
+1. The method must have the same name as in the parent class
+2. The method must have the same parameter as in the parent class.
+3. There must be an IS-A relationship (inheritance).
+[Read More](https://pragjyotishcollege.ac.in/wp-content/uploads/2020/04/Method-Overriding-in-Java.pdf)
+
+## Virtual Method Invocation:
+A virtual function or virtual method in an OOP language is a function or method used to override the behavior of the function in an inherited class with the same signature to achieve the polymorphism.[Read More](https://www.javatpoint.com/virtual-function-in-java)
+
+## Java OOPs Concepts [(Object Orientated Programming) ](https://www.javatpoint.com/java-oops-concepts)
+Object-Oriented Programming is a paradigm that provides many concepts, such as inheritance, data binding, polymorphism, etc.
+Object means a real-world entity such as a pen, chair, table, computer, watch, etc. Object-Oriented Programming is a methodology or paradigm to design a program using classes and objects. It simplifies software development and maintenance by providing some concepts:
+
+- Object
+- Class
+- Inheritance
+- Polymorphism
+- Abstraction
+- Encapsulation
+
+![OOP_4p](https://user-images.githubusercontent.com/83961643/161706461-063ddbf6-7b4c-4ed2-910f-bf83c1ce4a48.png)
+
+## [Polymorphism](https://www.javatpoint.com/runtime-polymorphism-in-java)
+Polymorphism in Java is a concept by which we can perform a single action in different ways. Polymorphism is derived from 2 Greek words: poly and morphs. The word "poly" means many and "morphs" means forms. So polymorphism means many forms.
+
+There are two types of polymorphism in Java: compile-time polymorphism and runtime polymorphism. We can perform polymorphism in java by method overloading and method overriding.
+
+If you overload a static method in Java, it is the example of compile time polymorphism. 
+
+
+## Varargs
+
+Variable arguments: An argument of a method can accept arbitrary number of values. This argument that can accept variable number of values is called varargs. [Read More](https://www.programiz.com/java-programming/varargs)
+
+[convert varargs to List or Array](https://tedblob.com/java-convert-varargs-to-list-or-array/)
+
+
+## Static Method
+
+A method that belongs to a class rather than an instance of a class. The method is accessible to every instance of a class, but methods defined in an instance are only able to be accessed by that object of a class. 
+[Read More](https://www.techopedia.com/definition/24034/static-method-java)
+![slide_2](https://user-images.githubusercontent.com/83961643/161718487-d099afa0-934c-4d75-8a37-76d5cdd72faf.jpg) 
+
+[More Notes](https://slideplayer.com/slide/9793159/)
+
+![slide_5](https://user-images.githubusercontent.com/83961643/161718766-51cf54cb-0fa0-410a-bb14-cde0ba97f2d2.jpg)
+![slide_3](https://user-images.githubusercontent.com/83961643/161718774-b5ddca0e-a9f0-4e45-805a-e61921275614.jpg)
+
+
+## A static initialization block in Java
+
+Instance variables are initialized using initialization blocks. However, the static initialization blocks can only initialize the static instance variables. These blocks are only executed once when the class is loaded. There can be multiple static initialization blocks in a class that is called in the order they appear in the program. [More Examples](https://www.tutorialspoint.com/a-static-initialization-block-in-java)
+
+
+## [Static Import](https://www.geeksforgeeks.org/static-import-java/)
+
+You can access the static members of a class directly without class name or any object. For Example: we always use sqrt() method of Math class by using Math class i.e. Math.sqrt(), but by using static import we can access sqrt() method directly. 
+
+
+## [Immutable Class](https://www.geeksforgeeks.org/create-immutable-class-java/)
+
+Immutable class in java means that once an object is created, we cannot change its content. In Java, all the wrapper classes (like Integer, Boolean, Byte, Short) and String class is immutable. We can create our own immutable class as well.
+
+
+## [Singleton Class](https://www.geeksforgeeks.org/singleton-class-java/)
+
+In object-oriented programming, a singleton class is a class that can have only one object (an instance of the class) at a time. After the first time, if we try to instantiate the Singleton class, the new variable also points to the first instance created. So whatever modifications we do to any variable inside the class through any instance, affects the variable of the single instance created and is visible if we access that variable through any variable of that class type defined. 
+
+Purpose: To restrict the limit of the number of object creation to only one. This often ensures that there is access control to resources, for example, socket or database connection.
+
+
+## Modeling Business Problems with Classes
+
+![img](https://user-images.githubusercontent.com/83961643/161742340-72c9af1b-51e3-4361-970f-36ce9707bd87.jpeg)
+
+>> Always use the most generic reference type possible. 
+
+
+## Abstract Class
+Abstract Methods and Classes
+
+An abstract class is a class that is declared abstract—it may or may not include abstract methods. Abstract classes cannot be instantiated, but they can be subclassed.
+
+An abstract method is a method that is declared without an implementation (without braces, and followed by a semicolon), like this:
+
+abstract void moveTo(double deltaX, double deltaY);
+If a class includes abstract methods, then the class itself must be declared abstract, as in:
+
+>>`public abstract class GraphicObject {
+   // declare fields
+   // declare nonabstract methods
+   abstract void draw();
+}`
+
+When an abstract class is subclassed, the subclass usually provides implementations for all of the abstract methods in its parent class. However, if it does not, then the subclass must also be declared abstract.
+[Java Docs: Abstract Class](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html)
+
+## Absract Method
+- Can't have a method body
+- Must be declared in an abstract class
+- Is overridden in subclasses
+- An abstract method can take arguments and return values. 
+
+## Validating Abstract Classes 
+- An abstract class may have any number of abstract and nonabstract methods
+- Do the following when abstracting: Declare the child class as abstract, Override all abstract methods inherited from the parent class. There will be a complie-time error if you do not execute override. 
+
+
+## [Final methods and class](https://docs.oracle.com/javase/tutorial/java/IandI/final.html)
+You can declare some or all of a class's methods final. You use the final keyword in a method declaration to indicate that the method cannot be overridden by subclasses. The Object class does this—a number of its methods are final.
+
+If the method is final you can't chnage the implementation. 
+
+![ifinal](https://user-images.githubusercontent.com/83961643/161747639-b24e21fd-86fe-4df0-9e2b-82301ef65d06.jpeg)
+
+Benefits of final Variables: 
+- Bug prevention
+- Thread saftey 
+
+Drawback: Not available for garbage collection 
+
+## Static and Final combined:
+A field that is both ststic and final is considered a constant. By convention, constant fields use identifiers consiting of only uppercase letters and underscores. 
+
+
+## Enumerations (enums)
+- Created by using a variation of a Java class
+- Provide a complie-time range check 
+![enum](https://user-images.githubusercontent.com/83961643/161752469-463c2524-223f-4e35-bd5a-84c6011cc4b4.jpeg)
 
