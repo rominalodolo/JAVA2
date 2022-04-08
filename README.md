@@ -304,3 +304,4 @@ Nested Classes in Java is prerequisite required before adhering forward to grasp
 
 ## Builder Pattern 
 
+## (Predicate](https://docs.oracle.com/javase/8/docs/api/java/util/function/Predicate.html)
