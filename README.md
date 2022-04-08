@@ -294,6 +294,10 @@ Nested Classes in Java is prerequisite required before adhering forward to grasp
 
 # Chapter 7: Generics and Collections 
 
+## Ordering Collections
+![800px-Java util Collection_hierarchy svg](https://user-images.githubusercontent.com/83961643/162386411-99fc9cad-d126-44bc-ae87-cb9cf3a73620.png)![1024px-Java util Map_hierarchy svg](https://user-images.githubusercontent.com/83961643/162386494-944c31ca-2c2e-4ab8-9d8f-6979d61e7dd8.png)
+
+
 # Chapter 8: Collections, Streams & Filters 
 
 
