@@ -304,5 +304,5 @@ Nested Classes in Java is prerequisite required before adhering forward to grasp
 
 ## Builder Pattern 
 
-## (Predicate](https://docs.oracle.com/javase/8/docs/api/java/util/function/Predicate.html)
+## [Predicate](https://docs.oracle.com/javase/8/docs/api/java/util/function/Predicate.html)
 The predicate is a predefined functional interface in Java defined in the java.util.Function package. It helps with manageability of code, aids in unit-testing, and provides various handy functions. - [More](https://www.educative.io/edpresso/what-is-a-java-predicate)
