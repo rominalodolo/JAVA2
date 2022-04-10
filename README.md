@@ -4,6 +4,7 @@
 
 ## [Types of Classes in Java](https://www.javatpoint.com/types-of-classes-in-java)
 ![types-of-classes-in-java](https://user-images.githubusercontent.com/83961643/161749874-1a37502b-39a4-4b6e-b1f8-43052d400610.png)
+
 Anonoymous Class 
 [More on classes](https://cs.lmu.edu/~ray/notes/javaclasses/)
 
