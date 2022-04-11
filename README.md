@@ -342,5 +342,21 @@ doesn’t provide simple way to return a mutable Map
 
 [More](https://www.bezkoder.com/kotlin-groupby-groupingby-example/)
 
-# Chapter 11: 
+# Chapter 11: Exceptions and Assertions
 
+## Error Handeling
+
+## Exception
+
+## try-catch Statement 
+Used to handle exceptions
+
+- The catch clause
+- finally Clause
+
+## Assertions
+
+# Chapter 12: Java Date/Time API 
+[More from the Docs](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html)
+
+![datetimejava](https://user-images.githubusercontent.com/83961643/162715845-0c120112-726f-4766-bb01-e0caf73a87e0.jpeg)
