@@ -328,5 +328,19 @@ The predicate is a predefined functional interface in Java defined in the java.u
 
 # Chapter 10: Lambda Operations 
 
+## Difference between groupBy and groupingBy:
+– groupBy:
+
+returns a Map object
+changes the values by valueTransform
+allows to pass a destination object to get mutable Map as result
+– groupingBy:
+
+returns a Grouping object
+doesn’t have valueTransform, so it changes the values by Grouping method such as eachCount(), fold(), reduce(), aggregate()…
+doesn’t provide simple way to return a mutable Map
+
+[More](https://www.bezkoder.com/kotlin-groupby-groupingby-example/)
+
 # Chapter 11: 
 
