@@ -328,5 +328,49 @@ The predicate is a predefined functional interface in Java defined in the java.u
 
 # Chapter 10: Lambda Operations 
 
-# Chapter 11: 
+## Difference between groupBy and groupingBy:
+– groupBy:
+
+returns a Map object
+changes the values by valueTransform
+allows to pass a destination object to get mutable Map as result
+– groupingBy:
+
+returns a Grouping object
+doesn’t have valueTransform, so it changes the values by Grouping method such as eachCount(), fold(), reduce(), aggregate()…
+doesn’t provide simple way to return a mutable Map
+
+[More](https://www.bezkoder.com/kotlin-groupby-groupingby-example/)
+
+# Chapter 11: Exceptions and Assertions
+
+## Error Handeling
+
+## Exception
+
+## try-catch Statement 
+Used to handle exceptions
+
+- The catch clause
+- finally Clause
+
+## Assertions
+
+# Chapter 12: Java Date/Time API 
+[More from the Docs](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html)
+
+![datetimejava](https://user-images.githubusercontent.com/83961643/162715845-0c120112-726f-4766-bb01-e0caf73a87e0.jpeg)
+
+
+# Chapter 13: Java I/O Fundamentalts
+
+
+# Lesson 14: File I/O (NIO.2)
+
+## Managing Metadata:![metadata](https://user-images.githubusercontent.com/83961643/162918889-60eabbcf-41b7-4948-91d7-0f021b3aea3d.jpeg)
+
+
+# Lesson 15: Concurrency
+
+# Lesson 16: Fork-Join Framework
 
