@@ -364,7 +364,11 @@ Used to handle exceptions
 
 # Chapter 13: Java I/O Fundamentalts
 
+
 # Lesson 14: File I/O (NIO.2)
+
+## Managing Metadata:![metadata](https://user-images.githubusercontent.com/83961643/162918889-60eabbcf-41b7-4948-91d7-0f021b3aea3d.jpeg)
+
 
 # Lesson 15: Concurrency
 
