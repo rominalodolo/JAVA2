@@ -378,5 +378,9 @@ Used to handle exceptions
 
 # Lesson 18: Building Database Applications with JDBC 
 
+# Lesson 19: Localization
 
+# Lesson 20: Oracle Cloud
+
+# Lesson 21: Oracle Application Container Cloud Service Overview
 
