@@ -374,6 +374,10 @@ Used to handle exceptions
 
 # Lesson 16: Fork-Join Framework
 
+## Parallelism and without Parallelism
+
+## Work-Stealing
+
 # Lesson 17: Parrellel Streams
 
 # Lesson 18: Building Database Applications with JDBC 
