@@ -380,6 +380,12 @@ Used to handle exceptions
 
 # Lesson 17: Parrellel Streams
 
+## Streams 
+
+## Pipelines 
+
+## Statefullness
+
 # Lesson 18: Building Database Applications with JDBC 
 
 # Lesson 19: Localization
