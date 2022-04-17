@@ -388,6 +388,10 @@ Used to handle exceptions
 
 # Lesson 18: Building Database Applications with JDBC 
 
+## CRUD operations
+
+## Locale
+
 # Lesson 19: Localization
 
 # Lesson 20: Oracle Cloud
